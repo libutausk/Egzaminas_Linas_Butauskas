@@ -106,7 +106,7 @@
             color: lightgrey;
             width: 100%;
             direction: rtl;
-            text-align: left;
+		 display: flex;
         }
 
         .stars i:hover,
