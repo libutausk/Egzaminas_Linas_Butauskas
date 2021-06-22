@@ -1,0 +1,145 @@
+        body {
+            background-color: #f8f8f8;
+            font-family: 'Exo', sans-serif;
+            letter-spacing: 1px;
+            margin: 0;
+        }
+
+        header {
+            background-color: #fff;
+            margin-bottom: 50px;
+        }
+
+        footer {
+            margin-top: 80px;
+        }
+
+        .h1Heading {
+            color: #2c3e50;
+
+        }
+
+        .h4Heading {
+            color: #6eb92b;
+
+        }
+
+        p {
+            font-size: 14px;
+            color: #697070;
+        }
+
+        .logo {
+            height: 60px;
+            margin: 20px;
+        }
+
+        .images {
+            max-width: 100%;
+            max-height: 100%;
+            display: block;
+            padding: 5px;
+        }
+
+        .mainBody {
+            width: 70vw;
+            margin: 0 auto;
+        }
+
+        .parentBox {
+            margin: 0 auto;
+            width: 70vw;
+            margin-top: 50px;
+            display: flex;
+            flex-wrap: wrap;
+
+        }
+
+        .childBox {
+            width: calc((100% / 3) - 40px);
+            min-width: 280px;
+            background-color: #fff;
+            box-sizing: border-box;
+            -webkit-box-shadow: 0px 3px 6px 2px rgba(201, 201, 201, 0.44);
+            -moz-box-shadow: 0px 3px 6px 2px rgba(201, 201, 201, 0.44);
+            box-shadow: 0px 3px 6px 2px rgba(201, 201, 201, 0.44);
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin: 0 10px 20px 10px;
+            border-radius: 5px;
+
+
+        }
+
+        .cardData {
+            padding: 10px 20px 20px 20px;
+        }
+
+        .hrNew {
+            border-top: 1px solid lightgrey;
+            width: 100%;
+        }
+
+        .textAbout {
+            line-height: 150%;
+        }
+
+        .button {
+            color: #fff;
+            background-color: #6eb92b;
+            border: none;
+            padding: 16px 42px;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        .inputField {
+            width: 20%;
+            height: 20px;
+            border-radius: 5px;
+            border: 1px solid lightgrey;
+        }
+
+        .stars {
+            color: lightgrey;
+            width: 100%;
+            direction: rtl;
+            text-align: left;
+        }
+
+        .stars i:hover,
+        .stars>i:hover~i {
+            color: #6eb92b;
+        }
+	   .comment {
+	       color: #6eb92b; 
+        }
+	   @media only screen and (max-width: 576px) {
+        .childBox {
+            width: 100%;
+        }
+
+        .parentBox {
+            justify-content: center;
+        }
+
+        .inputField {
+            width: 100%;
+        }
+    }
+
+    @media only screen and (max-width: 768px) {
+        .childBox {
+            max-width: calc((100% / 2) - 40px);
+        }
+
+        .parentBox {
+            justify-content: center;
+        }
+
+        .inputField {
+            width: 100%;
+        }
+    }
