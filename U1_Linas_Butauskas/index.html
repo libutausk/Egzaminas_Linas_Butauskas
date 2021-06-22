@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a251cbd785.js" crossorigin="anonymous"></script>
+    <!--    <link rel="stylesheet" href="css/style.css">-->
+    <title>U1</title>
+    <style>
+        body {
+            background-color: #f8f8f8;
+            font-family: 'Exo', sans-serif;
+            letter-spacing: 1px;
+            margin: 0;
+        }
+
+        header {
+            background-color: #fff;
+            margin-bottom: 50px;
+        }
+
+        footer {
+            margin-top: 80px;
+        }
+
+        .h1Heading {
+            color: #2c3e50;
+
+        }
+
+        .h4Heading {
+            color: #6eb92b;
+
+        }
+
+        p {
+            font-size: 14px;
+            color: #697070;
+        }
+
+        .logo {
+            height: 60px;
+            margin: 20px;
+        }
+
+        .images {
+            max-width: 100%;
+            max-height: 100%;
+            display: block;
+            padding: 5px;
+        }
+
+        .mainBody {
+            width: 70vw;
+            margin: 0 auto;
+        }
+
+        .parentBox {
+            margin: 0 auto;
+            width: 70vw;
+            margin-top: 50px;
+            display: flex;
+            flex-wrap: wrap;
+
+        }
+
+        .childBox {
+            width: calc((100% / 3) - 40px);
+            min-width: 280px;
+            background-color: #fff;
+            box-sizing: border-box;
+            -webkit-box-shadow: 0px 3px 6px 2px rgba(201, 201, 201, 0.44);
+            -moz-box-shadow: 0px 3px 6px 2px rgba(201, 201, 201, 0.44);
+            box-shadow: 0px 3px 6px 2px rgba(201, 201, 201, 0.44);
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin: 0 10px 20px 10px;
+            border-radius: 5px;
+
+
+        }
+
+        .cardData {
+            padding: 10px 20px 20px 20px;
+        }
+
+        .hrNew {
+            border-top: 1px solid lightgrey;
+            width: 100%;
+        }
+
+        .textAbout {
+            line-height: 150%;
+        }
+
+        .button {
+            color: #fff;
+            background-color: #6eb92b;
+            border: none;
+            padding: 16px 42px;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        .inputField {
+            width: 20%;
+            height: 20px;
+            border-radius: 5px;
+            border: 1px solid lightgrey;
+        }
+
+        .stars {
+            color: lightgrey;
+            width: 100%;
+            direction: rtl;
+            text-align: left;
+        }
+
+        .stars i:hover,
+        .stars>i:hover~i {
+            color: #6eb92b;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" class="logo">
+    </header>
+    <div class="mainBody">
+        <section class="sectionOne">
+
+            <h1 class="h1Heading">Naujausi kursai</h1>
+
+            <div class="parentBox">
+
+                <div class="childBox" id=''>
+                    <img src="images/php.jpg" class="images">
+                    <div class="cardData">
+                        <h4 class="h4Heading">PHP Pagrindai</h4>
+                        <p class="author">Autorius</p>
+                        <p class="textAbout">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <hr class="hrNew">
+                        <div class="stars">
+                            <i class="fas fa-star" value="1"></i><i class="fas fa-star" value="2"></i><i class="fas fa-star" value="3"></i><i class="fas fa-star" value="4"></i><i class="fas fa-star" value="5"></i><i class="fas fa-comment"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="childBox" id=''>
+                    <img src="images/css.jpg" class="images">
+                    <div class="cardData">
+                        <h4 class="h4Heading">HTML/CSS įvadas</h4>
+                        <p class="author">Autorius</p>
+                        <p class="textAbout">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <hr class="hrNew">
+                        <div class="stars">
+                            <i class="fas fa-star" value="1"></i><i class="fas fa-star" value="2"></i><i class="fas fa-star" value="3"></i><i class="fas fa-star" value="4"></i><i class="fas fa-star" value="5"></i><i class="fas fa-comment"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="childBox" id=''>
+
+                    <img src="images/git.jpg" class="images">
+                    <div class="cardData">
+                        <h4 class="h4Heading">Pažintis Su Git</h4>
+                        <p class="author">Autorius</p>
+                        <hr class="hrNew">
+                        <p class="textAbout">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <hr class="hrNew">
+                        <div class="stars">
+                            <i class="fas fa-star" value="1"></i><i class="fas fa-star" value="2"></i><i class="fas fa-star" value="3"></i><i class="fas fa-star" value="4"></i><i class="fas fa-star" value="5"></i><i class="fas fa-comment"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="childBox" id=''>
+                    <img src="images/js.jpg" class="images">
+                    <div class="cardData">
+                        <h4 class="h4Heading">JavaScript Žaliems</h4>
+                        <p class="author">Autorius</p>
+                        <hr class="hrNew">
+                        <p class="textAbout">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <hr class="hrNew">
+                        <div class="stars">
+                            <i class="fas fa-star" value="1"></i><i class="fas fa-star" value="2"></i><i class="fas fa-star" value="3"></i><i class="fas fa-star" value="4"></i><i class="fas fa-star" value="5"></i><i class="fas fa-comment"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sectionTwo">
+
+            <h1 class="h1Heading">Sekite naujienas</h1>
+            <p class="textAbout">Norite gauti pranešimus apie naujus kursus? Užsisakykite naujienlaiškį!</p>
+            <form action="index.html">
+                <p>Vardas</p>
+                <input type="text" id="fieldOne" name="name" class="inputField"><br>
+                <p>El. paštas</p>
+                <input type="text" id="fieldTwo" name="email" class="inputField"><br><br>
+                <input onclick="validateForm();" type="submit" value="Užsisakyti" class="button">
+            </form>
+            <footer>
+                <hr class="hrNew">
+                <p>&copy; 2021 Linas Butauskas</p>
+            </footer>
+        </section>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
